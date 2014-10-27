@@ -1,6 +1,6 @@
 {
   "name": "teacup-camel-to-kebab",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Teacup plugin to transform camelCase attribute names to kebab-case",
   "author": "Good Eggs <open-source@goodeggs.com>",
   "contributors": [
