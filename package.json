@@ -21,7 +21,7 @@
   "devDependencies": {
     "coffee-script": ">=1.7.x",
     "mocha": "~1.x.x",
-    "teacup": "~0.4.2"
+    "teacup": "~1.0.0"
   },
   "scripts": {
     "compile": "coffee --bare --compile --output lib/ src/",
