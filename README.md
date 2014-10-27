@@ -1,6 +1,6 @@
 # Teacup Camel to Kebab
 
-Teacup plugin to transform camelCase attribute names to kebab-case
+[Teacup](https://github.com/goodeggs/teacup) plugin to transform camelCase attribute names to kebab-case.
 
 [![NPM version](http://img.shields.io/npm/v/teacup-camel-to-kebab.svg?style=flat-square)](https://www.npmjs.org/package/teacup-camel-to-kebab)
 [![Build Status](http://img.shields.io/travis/goodeggs/teacup-camel-to-kebab.svg?style=flat-square)](https://travis-ci.org/goodeggs/teacup-camel-to-kebab)
