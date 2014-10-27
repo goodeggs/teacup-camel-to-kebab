@@ -1,0 +1,32 @@
+{
+  "name": "teacup-camel-to-kebab",
+  "version": "0.0.0",
+  "description": "Teacup plugin to transform camelCase attribute names to kebab-case",
+  "author": "Good Eggs <open-source@goodeggs.com>",
+  "contributors": [
+    "Adam Hull <adam@hmlad.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "teacup plugin kebab"
+  ],
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/goodeggs/teacup-camel-to-kebab.git"
+  },
+  "homepage": "https://github.com/goodeggs/teacup-camel-to-kebab",
+  "bugs": "https://github.com/goodeggs/teacup-camel-to-kebab/issues",
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script": ">=1.7.x",
+    "mocha": "~1.x.x",
+    "teacup": "~0.4.2"
+  },
+  "scripts": {
+    "compile": "coffee --bare --compile --output lib/ src/",
+    "prepublish": "npm run compile",
+    "pretest": "npm run compile",
+    "test": "mocha"
+  }
+}
